@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+
+button {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #328fa8;
+  color: white;
+  border: 2px solid #328fa8;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-family: 'Sora', sans-serif;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button:hover {
+  background-color: white;
+  color: #328fa8;
+}
+
+p {
+  letter-spacing: 1px;
+  font-family: 'Sora', sans-serif;
+}
